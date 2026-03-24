@@ -3,6 +3,7 @@ const minutesMin = document.getElementById("minutes");
 const secondsSec = document.getElementById("seconds");
 const startBtn = document.getElementById("startBtn");
 const stopBtn = document.getElementById("stopBtn");
+const resetBtn = document.getElementById("resetBtn");
 
 let hours = 0;
 let minutes = 0;
@@ -47,7 +48,18 @@ function stopTimer() {
     timerInterval = null;
 }
 
+function resetTimer() {
+    stopTimer();
+    
+    hours = 0;
+    minutes = 0;
+    seconds = 0;
+    
+    updateDisplay();
+}
+
 startBtn.addEventListener("click", startTimer);
 stopBtn.addEventListener("click", stopTimer);
+resetBtn.addEventListener("click", resetTimer);
 
 updateDisplay();

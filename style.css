@@ -52,28 +52,28 @@ h1 {
 }
 
 #startBtn {
-    background-color: #4caf50;
+    background-color: #018d06;
     color: white;
 }
 
 #startBtn:hover {
-    background-color: #45a049;
+    background-color: #006d05;
 }
 
 #stopBtn {
-    background-color: #f44336;
+    background-color: #ff1100;
     color: white;
 }
 
 #stopBtn:hover {
-    background-color: #d32f2f;
+    background-color: #b00000;
 }
 
 #resetBtn {
-    background-color: #2196f3;
+    background-color: #008cff;
     color: white;
 }
 
 #resetBtn:hover {
-    background-color: #1976d2;
+    background-color: #0051a2;
 }
